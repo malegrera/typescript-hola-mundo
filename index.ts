@@ -3,9 +3,10 @@ import './style.css';
 import "@fortawesome/fontawesome-free/css/all.css";
 
 // Write TypeScript code!
+let nombre:string="Pili";
 const appDiv: HTMLElement = document.getElementById('app');
 appDiv.innerHTML = `
-<h1>Hola</h1>
+<h1>Hola ${nombre}</h1>
 <i class="fa-solid fa-user"></i>
 <span style="font-size: 3em; color: Tomato;">
 <i class="fas fa-camera"></i>
