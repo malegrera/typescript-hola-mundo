@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "sass --watch styles/style.scss  styles/style.css"
+    "start": "sass --watch styles.scss  styles.css"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.1.0",
